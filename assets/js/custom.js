@@ -21,6 +21,72 @@ function myFunction() {
 
 
     $('.inlinebtn .btn').on('click', function() {
-        alert('hello');
         $(this).addClass('classOne');
+        $(this).siblings().removeClass('classOne');
     });
+
+    $('.approached2').hide();
+    $('.approached3').hide();
+    $('.approached4').hide();
+    $('.approached5').hide();
+    $('.approached6').hide();
+
+    $('.class1').on('click', function() {
+        $('.approached').show();
+        $('.approached2').hide();
+        $('.approached3').hide();
+        $('.approached4').hide();
+        $('.approached5').hide();
+        $('.approached6').hide();
+
+    });
+    $('.class2').on('click', function() {
+        $('.approached').hide();
+        $('.approached2').show();
+        $('.approached3').hide();
+        $('.approached4').hide();
+        $('.approached5').hide();
+        $('.approached6').hide();
+
+    });
+    $('.class3').on('click', function() {
+        $('.approached').hide();
+        $('.approached2').hide();
+        $('.approached3').show();
+        $('.approached4').hide();
+        $('.approached5').hide();
+        $('.approached6').hide();
+
+    });
+    $('.class4').on('click', function() {
+        $('.approached').hide();
+        $('.approached2').hide();
+        $('.approached3').hide();
+        $('.approached4').show();
+        $('.approached5').hide();
+        $('.approached6').hide();
+
+    });
+    $('.class5').on('click', function() {
+        $('.approached').hide();
+        $('.approached2').hide();
+        $('.approached3').hide();
+        $('.approached4').hide();
+        $('.approached5').show();
+        $('.approached6').hide();
+
+    });
+    $('.class6').on('click', function() {
+        $('.approached').hide();
+        $('.approached2').hide();
+        $('.approached3').hide();
+        $('.approached4').hide();
+        $('.approached5').hide();
+        $('.approached6').show();
+
+    });
+
+
+
+
+    

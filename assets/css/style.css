@@ -252,7 +252,7 @@ body{
     font-size: 8em;
     color: white;
     font-family: 'Gilroy-bold';
-    background: -webkit-linear-gradient(#0D99FF, #99FAF4);
+    background-image: linear-gradient(to right, #0D99FF, #99FAF4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-style: italic;
@@ -500,7 +500,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .youtest {
-    background: -webkit-linear-gradient(#0D99FF, #99FAF4);
+    background-image: linear-gradient(to right, #0D99FF, #99FAF4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -584,7 +584,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .work {
-    background: -webkit-linear-gradient(#0D99FF, #99FAF4);
+    background-image: linear-gradient(to right, #0D99FF, #99FAF4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1305,7 +1305,7 @@ padding-bottom: 40px;
         width: 40%;
     }
     .sideimage3 {
-        right: -5%;
+        right: 0%;
         bottom: 0;
         transform: translatey(0px);
         animation: float 5s ease-in-out infinite;
@@ -1633,7 +1633,7 @@ padding-bottom: 40px;
         position: fixed;
         z-index: 1000;
         width: 90%!important;
-        left: -16px;
+        left: 0px;
     }
     .header::after {
         display: none;

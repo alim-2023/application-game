@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <title>Application + Game</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -242,7 +241,7 @@
 
 
                         <div class="seed">
-                            <img src="assets/images/star1.svg" alt="" srcset="">
+                            <img src="assets/images/star1.svg" alt="bitswits">
                         </div>
                         <h3 class="font23 colorwhite fontGM">Pre-Seed & <br> Seed Startups</h3>
                         <p class="gray fontGR font14">Create a pitch deck, research your idea, run user interviews, and
@@ -251,7 +250,7 @@
                     </div>
                     <div class="col-md-4 mobile wow bounceInUp" data-wow-duration="3s" data-wow-delay="1s">
                         <div class="seed">
-                            <img src="assets/images/star2.svg" alt="" srcset="">
+                            <img src="assets/images/star2.svg" alt="bitswits">
 
                         </div>
                         <h3 class="font23 colorwhite fontGM">Startups <br> that Scale</h3>
@@ -262,7 +261,7 @@
                     </div>
                     <div class="col-md-4 mobile wow bounceInUp" data-wow-duration="3s" data-wow-delay="2s">
                         <div class="seed">
-                            <img src="assets/images/star3.svg" alt="" srcset="">
+                            <img src="assets/images/star3.svg" alt="bitswits">
                         </div>
                         <h3 class="font23 colorwhite fontGM">Businesses that <br> want to digitize</h3>
                         <p class="gray fontGR font14">Redesign and modernize your platform or SaaS, and
@@ -668,13 +667,13 @@
                                 <div class="row pop-row">
                                     <div class="col-lg-4">
                                         <div class="popup-img text-center">
-                                            <img src="assets/images/logo.svg" class="img-fluid mx-auto" alt="">
+                                            <img src="assets/images/logo.svg" class="img-fluid mx-auto" alt="bitswits">
                                             <h3 class="mt-3 mb-0">Elevate Your Mobile App Experience With</h3>
                                             <h2 class="mt-1 mb-3">Top Application Game Development</h2>
-                                            <img src="assets/images/pop-client.webp" class="img-fluid mx-auto" alt="">
+                                            <img src="assets/images/pop-client.webp" class="img-fluid mx-auto" alt="bitswits">
                                             <h4 class="mt-2 mb-0">Daniel F.</h4>
                                             <h5 class="mt-1 mb-0">Director</h5>
-                                            <img src="assets/images/pop-star.webp" class="img-fluid mx-auto" alt="">
+                                            <img src="assets/images/pop-star.webp" class="img-fluid mx-auto" alt="bitswits">
                                             <p class="mt-3 mb-2">
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting
                                                 industry.
@@ -692,7 +691,7 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="popup-cntnt text-center">
-                                            <img src="assets//images/awards2.png" class="img-fluid mx-auto" alt="">
+                                            <img src="assets//images/awards2.png" class="img-fluid mx-auto" alt="bitswits">
                                             <div class="form-popup mt-5">
                                                 <h2 class="mb-0">Sign up</h2>
                                                 <p class="mb-5">& Get Free Credits</p>

@@ -11,6 +11,13 @@
     <script src="assets/js/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -52,9 +59,9 @@
                     CONCEPTS TO MARKET.</h3>
                 <div class="row">
                     <div class="col-md-6 mt-5">
-                        
+
                         <form action="" class="formshome">
-                        <h3 class="font30 fontGM colorwhite">Book A Call</h3>
+                            <h3 class="font30 fontGM colorwhite">Book A Call</h3>
                             <div class="spacing">
                                 <span class="font16 colorwhite fontGM">My name is</span> <input type="text" name="name"
                                     placeholder="Insert Name"> <span class="font16 colorwhite fontGM">and I'd</span>
@@ -123,7 +130,7 @@
                     </div>
                     <div class="col-md-6 sidenode wow bounceInUp" data-wow-duration="3s" data-wow-delay="2s">
                         <img src="assets/images/online.svg" alt="bitswits" class="img-fluid sideimage2">
-                        <img src="assets/images/bannerimage.svg" alt="bitswits" class="img-fluid sideimage">
+                        <img src="assets/images/bannerimage.png" alt="bitswits" class="img-fluid sideimage">
                         <img src="assets/images/mobile1.svg" alt="bitswits" class="img-fluid sideimage1">
                         <img src="assets/images/mobile3.svg" alt="bitswits" class="img-fluid sideimage3">
                     </div>
@@ -197,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row desk1">
                     <div class="col-md-4 mobile wow bounceInUp" data-wow-duration="3s" data-wow-delay="0s">
                         <div class="mvp posthover developalm">
                             <h4 class="font40 fontGB colorwhite">Develop <br> an MVP </h4>
@@ -221,8 +228,53 @@
                     </div>
                 </div>
 
+
+
+                <div class="slick-carousel mobile1">
+                    <div>
+                        <div class="slide-content">
+                            <div class="mvp posthover developalm">
+                                <h4 class="font40 fontGB colorwhite">Develop <br> an MVP </h4>
+                                <p class="gray">We have released dozens of MVPs and full-scale products that now have
+                                    millions of users
+                                    worldwide.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="slide-content">
+                            <div class="mvp posthover2 developalm">
+                                <h4 class="font40 fontGB colorwhite">Create <br> a design </h4>
+                                <p class="gray fontGM">We specialize in data-rich platforms, always going UX-first.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="slide-content">
+                            <div class="mvp posthover3 developalm">
+                                <h4 class="font40 fontGB colorwhite">Expand <br> your team </h4>
+                                <p class="gray fontGM">We hire only the top 1% of the recruitment funnel, to offer you
+                                    the
+                                    best of the best</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
             </div>
-        </section>
+
+    </div>
+    </section>
 
 
     </div>
@@ -236,7 +288,7 @@
                         <h3 class="fontinter font78 colorwhite"> <span class="work">We Work</span> With:</h3>
                     </div>
                 </div>
-                <div class="row user">
+                <div class="row user desk2">
                     <div class="col-md-4 mobile wow bounceInUp" data-wow-duration="3s" data-wow-delay="0s">
 
 
@@ -270,6 +322,38 @@
 
                     </div>
                 </div>
+
+
+                <div class="slick-carousel2 mobile2">
+                    <div><div class="slide-content">
+                    <div class="seed">
+                            <img src="assets/images/star1.svg" alt="bitswits">
+                        </div>
+                        <h3 class="font23 colorwhite fontGM">Pre-Seed & <br> Seed Startups</h3>
+                        <p class="gray fontGR font14">Create a pitch deck, research your idea, run user interviews, and
+                            create MVP.</p>
+                    </div></div>
+                    <div><div class="slide-content">
+                    <div class="seed">
+                            <img src="assets/images/star2.svg" alt="bitswits">
+
+                        </div>
+                        <h3 class="font23 colorwhite fontGM">Startups <br> that Scale</h3>
+                        <p class="gray fontGR font14">Find your product-market fit, find the team
+                            with the right skill set, and scale fast without
+                            breaking things.</p>
+                    </div></div>
+                    <div><div class="slide-content">
+                    <div class="seed">
+                            <img src="assets/images/star3.svg" alt="bitswits">
+                        </div>
+                        <h3 class="font23 colorwhite fontGM">Businesses that <br> want to digitize</h3>
+                        <p class="gray fontGR font14">Redesign and modernize your platform or SaaS, and
+                            create new internal tools for better management.</p>
+                    </div></div>
+                </div>
+
+
             </div>
         </section>
         <section class="ideas">
@@ -523,7 +607,7 @@
 
                 </div>
 
-                <div class="row outcome">
+                <div class="row outcome desk3">
                     <div class="col-md-3 mobile wow bounceInUp" data-wow-duration="3s" data-wow-delay="0s">
                         <div class="mvp tickets">
                             <h4 class="font30 fontGB colorwhite">Outcome-focused <br> development </h4>
@@ -564,6 +648,60 @@
                     </div>
                 </div>
 
+
+                <div class="slick-carousel3 mobile3">
+                    <div><div class="slide-content">
+                    <div class="mvp tickets">
+                            <h4 class="font30 fontGB colorwhite">Outcome-focused <br> development </h4>
+                            <p class="gray">Outcome is important. Rather
+                                than just closing tickets in Jira, we
+                                try to optimize business
+                                processes, reduce expenses with
+                                just choosing right tech stack &
+                                logic.</p>
+                        </div>
+                    </div></div>
+
+
+                    <div><div class="slide-content">
+                    <div class="mvp tickets">
+                            <h4 class="font30 fontGB colorwhite">Strong <br> UX unit </h4>
+                            <p class="gray fontGM">On most projects we try to talk to
+                                users, understand their pains and
+                                wants. This helps us create the
+                                best design and solution.</p>
+                        </div>
+                    </div></div>
+
+
+                    <div><div class="slide-content">
+                    <div class="mvp tickets">
+                            <h4 class="font30 fontGB colorwhite">Regular reports <br> & demos </h4>
+                            <p class="gray fontGM">You will always know the status of
+                                the project (plan vs fact), you will
+                                have access to all documentation
+                                & can reach a team member in
+                                Slack directly.</p>
+                        </div>
+                    </div></div>
+
+
+                    <div><div class="slide-content">
+                    <div class="mvp tickets">
+                            <h4 class="font30 fontGB colorwhite">Regular reports <br> & demos </h4>
+                            <p class="gray fontGM">You will always know the status of
+                                the project (plan vs fact), you will
+                                have access to all documentation
+                                & can reach a team member in
+                                Slack directly.</p>
+                        </div>
+                    </div></div>
+
+                </div>
+
+
+
+
             </div>
         </section>
 
@@ -590,7 +728,7 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row desk4">
                 <div class="col-md-4">
 
                     <h3 class="colorwhite fontGM font71">USA</h3>
@@ -642,6 +780,59 @@
 
                 </div>
             </div>
+
+            <div class="slick-carousel4 mobile4">
+
+                <div><div class="slide-content">
+                <h3 class="colorwhite fontGM font71">USA</h3>
+                                <h5 class="colorwhite font14 fontGB aware">DELAWARE</h5>
+                                <p class="colorwhite font14 fontGR">8 The Green STE 300, Dover DE 19901.</p>
+
+                                <h5 class="colorwhite font14 fontGB califonia">CALIFORNIA</h5>
+                                <p class="colorwhite font14 fontGR">350 South Grand Avenue, Los Angeles, CA 90071</p>
+                </div></div>
+
+                <div><div class="slide-content">
+                <h3 class="colorwhite fontGM font71 uae">UAE</h3>
+                                <h5 class="colorwhite font14 fontGB aware">SHARJAH</h5>
+                                <p class="colorwhite font14 fontGR">Office #101, 32 Street, Al Mujarrah, Sharjah</p>
+                </div></div>
+
+                <div><div class="slide-content">
+                <h3 class="colorwhite fontGM font71">MALAYSIA</h3>
+                                <h5 class="colorwhite font14 fontGB aware">LABUAN</h5>
+                                <p class="colorwhite font14 fontGR">13 f-500A Main Office Tower Financial Park, Labuan</p>
+                </div></div>
+
+                <div><div class="slide-content">
+                <h3 class="colorwhite fontGM font71 pakistan">PAKISTAN</h3>
+                                <h5 class="colorwhite font14 fontGB aware">KARACHI</h5>
+                                <p class="colorwhite font14 fontGR">12th Floor Caesar's Tower, Karachi, Pakistan</p>
+                </div></div>
+
+            </div>
+
+            <div class="copypost">
+            <h4 class="colorwhite font30 fontGR"> Let's Start a Project Together</h4>
+                    <p class="colorwhite font14 fontGR">Let’s discuss your project and find out how we can help you
+                        scale!</p>
+
+
+                    <form action="" class="footerform mt-4">
+                        <input type="text" placeholder="Name*">
+                        <input type="email" placeholder="Email*">
+                        <input type="phone" placeholder="Phone Number*">
+                        <textarea placeholder="Describe your need " name="" id="" cols="30" rows="4"></textarea>
+                        <div class="button-header">
+                            <button type="submit" class="btn btn-primary">Submit <span class="super"> <img
+                                        src="assets/images/arrow.svg" class="img-fluid" alt="bitswits"> </span>
+                            </button>
+
+                        </div>
+                    </form>
+            </div>   
+
+
         </div>
         <div class="copyright">
             <p class="colorwhite font14 fontGR center m-0">Copyright © 2023 BitsWits. | Brand of Bhaoo Incorporation
@@ -670,10 +861,12 @@
                                             <img src="assets/images/logo.svg" class="img-fluid mx-auto" alt="bitswits">
                                             <h3 class="mt-3 mb-0">Elevate Your Mobile App Experience With</h3>
                                             <h2 class="mt-1 mb-3">Top Application Game Development</h2>
-                                            <img src="assets/images/pop-client.webp" class="img-fluid mx-auto" alt="bitswits">
+                                            <img src="assets/images/pop-client.webp" class="img-fluid mx-auto"
+                                                alt="bitswits">
                                             <h4 class="mt-2 mb-0">Daniel F.</h4>
                                             <h5 class="mt-1 mb-0">Director</h5>
-                                            <img src="assets/images/pop-star.webp" class="img-fluid mx-auto" alt="bitswits">
+                                            <img src="assets/images/pop-star.webp" class="img-fluid mx-auto"
+                                                alt="bitswits">
                                             <p class="mt-3 mb-2">
                                                 Lorem Ipsum is simply dummy text of the printing and typesetting
                                                 industry.
@@ -691,7 +884,8 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="popup-cntnt text-center">
-                                            <img src="assets//images/awards2.png" class="img-fluid mx-auto" alt="bitswits">
+                                            <img src="assets//images/awards2.png" class="img-fluid mx-auto"
+                                                alt="bitswits">
                                             <div class="form-popup mt-5">
                                                 <h2 class="mb-0">Sign up</h2>
                                                 <p class="mb-5">& Get Free Credits</p>
@@ -746,8 +940,50 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
     new WOW().init();
+</script>
+
+<script>
+    $().ready(function () {
+        $('.slick-carousel').slick({
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+
+        });
+    });
+    $().ready(function () {
+        $('.slick-carousel2').slick({
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            adaptiveHeight: true
+
+        });
+    });
+    $().ready(function () {
+        $('.slick-carousel3').slick({
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            adaptiveHeight: true
+
+        });
+    });
+    $().ready(function () {
+        $('.slick-carousel4').slick({
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+            adaptiveHeight: true
+
+        });
+    });
 </script>
 
 </html>

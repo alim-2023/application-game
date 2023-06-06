@@ -1428,6 +1428,21 @@ padding-bottom: 40px;
     display: none;
 }
 
+.whatcan .mobile1{
+    display: none;
+}
+.wework .mobile2{
+    display: none;
+}
+.allprops .mobile3{
+    display: none;
+}
+.footer .mobile4{
+    display: none;
+}
+.copypost {
+    display: none;
+}
 
 @media (max-width: 1399px) {
 
@@ -1725,6 +1740,84 @@ padding-bottom: 40px;
 
 
  @media (max-width: 480px) { 
+
+
+    .slick-dots li button:before {
+        font-size: 18px!important;
+        color: #fff!important;     
+    }
+    .slick-dots {
+        bottom: -50px!important;
+    }
+
+
+
+    .copypost{
+        display: block;
+        margin-top: 25%;
+    }
+
+    .whatcan .desk1{
+        display: none;
+    }
+    .whatcan .mobile1{
+            display: block;
+        }
+
+    .wework .desk2{
+        display: none;
+    }
+    .wework .mobile2{
+            display: block;
+    }
+
+    .allprops .desk3{
+        display: none;
+    }
+    .allprops .mobile3{
+            display: block;
+    }
+
+    .footer .desk4{
+        display: none;
+    }
+    .footer .mobile4{
+        display: block;
+}
+
+    .uncleaer {
+        padding-bottom: 8%;
+        padding-top: 8%;
+    }
+
+    .people {
+        display: none;
+    }
+
+    .formmobile input[type="text"]::placeholder {
+        color: white;
+    }
+    .formmobile input[type="email"]::placeholder {
+        color: white;
+    }
+
+    .mobile .d-flex h3 {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .banner h3{
+        line-height: 35px;
+    }
+
+    .sidenode {
+        display: none;
+    }
+    .high {
+        display: none;
+    }
+    .top {
+        display: none;
+    }
     .pakistan {
         margin-top: 50px;
     }
